@@ -1582,6 +1582,286 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SamacSys_Parts:CSD16406Q3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 21.59 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "CSD16406Q3"
+				(at 21.59 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "DQG_VSON-CLIP"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/csd16406q3"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "25V, N ch NexFET MOSFET, single SON3x3, 7.4mOhm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" ""
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CSD16406Q3"
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-CSD16406Q3"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CSD16406Q3?qs=SuDOdTVxq4Wogv4PDdDFZA%3D%3D"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "CSD16406Q3"
+				(at 21.59 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/csd16406q3/texas-instruments?utm_currency=USD&region=nac"
+				(at 21.59 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "CSD16406Q3_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "S_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "S_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "S_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "D_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "D_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -5.08 180)
+					(length 5.08)
+					(name "D_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -7.62 180)
+					(length 5.08)
+					(name "D_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1685,6 +1965,42 @@
 		)
 	)
 	(junction
+		(at 41.91 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0355ee22-5081-4146-b35a-842025eeea50")
+	)
+	(junction
+		(at 57.15 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1110ac6a-7264-4c8a-9f51-cc749a40cadf")
+	)
+	(junction
+		(at 87.63 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13987ee1-6759-4da9-b179-993f66bd3983")
+	)
+	(junction
+		(at 54.61 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1432c324-69e3-47c9-973c-cb2c97cd0a67")
+	)
+	(junction
+		(at 87.63 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "193ea62b-327a-4ec0-bd9d-047e5be688c2")
+	)
+	(junction
+		(at 52.07 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "381efe44-950c-41bc-be79-f6cc721b66ec")
+	)
+	(junction
 		(at 95.25 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1696,6 +2012,84 @@
 		(color 0 0 0 0)
 		(uuid "6bcf554a-8f89-40c3-893c-b09b7ba0ccbf")
 	)
+	(junction
+		(at 82.55 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74b016f6-9aa8-4773-9028-6621d0e58633")
+	)
+	(junction
+		(at 34.29 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7609db27-2cc2-4ff8-8e32-a03548690426")
+	)
+	(junction
+		(at 26.67 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "821af1e3-48b6-4463-9d68-b08361505335")
+	)
+	(junction
+		(at 54.61 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87cc8357-e7b9-4510-8f79-e733c425961a")
+	)
+	(junction
+		(at 59.69 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87e787c8-6bed-44f9-9d2b-b62668f3a8e4")
+	)
+	(junction
+		(at 25.4 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9658ed38-7547-437e-8ae0-46363538e8fd")
+	)
+	(junction
+		(at 31.75 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2041f20-72c5-4a45-89e2-94943e4ca5cb")
+	)
+	(junction
+		(at 57.15 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b807ecf5-bf96-43ab-bdc1-96642703c93b")
+	)
+	(junction
+		(at 31.75 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9d746c9-95fc-4aff-9948-07cec1dffc8e")
+	)
+	(junction
+		(at 29.21 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e11ab034-48c6-4472-bbe7-c8ec683f203d")
+	)
+	(junction
+		(at 34.29 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed8672c0-f205-47df-add2-a58eb7b2dba5")
+	)
+	(junction
+		(at 34.29 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f10bbad5-8add-4b87-ab9c-e583172b3491")
+	)
+	(junction
+		(at 87.63 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff01688d-c068-4d04-a971-7b13c7917520")
+	)
 	(no_connect
 		(at 45.72 38.1)
 		(uuid "0e2d1738-dc59-48b1-9bee-9b5c322bfcc8")
@@ -1703,6 +2097,66 @@
 	(no_connect
 		(at 45.72 40.64)
 		(uuid "2c2e1f34-f993-4145-b3ea-0cb6a3ece817")
+	)
+	(wire
+		(pts
+			(xy 57.15 105.41) (xy 59.69 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "039a2a0a-e86f-4b7e-b577-94a8292db275")
+	)
+	(wire
+		(pts
+			(xy 34.29 105.41) (xy 34.29 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07bcd216-103f-4f2a-9f24-a683bff5ba45")
+	)
+	(wire
+		(pts
+			(xy 81.28 81.28) (xy 81.28 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a72b637-91e9-4bda-a6fd-32901bb251c1")
+	)
+	(wire
+		(pts
+			(xy 25.4 90.17) (xy 25.4 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fad9495-e3ff-4de1-b154-545d5cbebb3c")
+	)
+	(wire
+		(pts
+			(xy 41.91 109.22) (xy 52.07 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "121c8935-37d4-4c68-b9dd-5539ac876b65")
+	)
+	(wire
+		(pts
+			(xy 54.61 105.41) (xy 54.61 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15988b90-d419-4dd1-83e1-c4213810f463")
 	)
 	(wire
 		(pts
@@ -1716,6 +2170,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 81.28) (xy 81.28 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24eed265-56e4-4f73-a733-fa42e1a2b0c2")
+	)
+	(wire
+		(pts
 			(xy 143.51 50.8) (xy 148.59 50.8)
 		)
 		(stroke
@@ -1723,6 +2187,16 @@
 			(type default)
 		)
 		(uuid "253c7858-ba28-44d1-8ce1-3f5175f0074a")
+	)
+	(wire
+		(pts
+			(xy 26.67 137.16) (xy 17.78 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a3c69ca-0c8f-422f-aaf7-f87614c60ab2")
 	)
 	(wire
 		(pts
@@ -1736,6 +2210,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 101.6) (xy 82.55 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fec0c47-e7be-405b-9425-b994eb240ef4")
+	)
+	(wire
+		(pts
 			(xy 95.25 34.29) (xy 95.25 38.1)
 		)
 		(stroke
@@ -1743,6 +2227,36 @@
 			(type default)
 		)
 		(uuid "35f67ce4-454d-481b-abe0-620e10454353")
+	)
+	(wire
+		(pts
+			(xy 31.75 105.41) (xy 34.29 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3600afb8-211f-488e-a2dd-fc216e2b888c")
+	)
+	(wire
+		(pts
+			(xy 77.47 88.9) (xy 87.63 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3be21cc1-2b64-4732-ba54-35d2af2b2dd5")
+	)
+	(wire
+		(pts
+			(xy 49.53 88.9) (xy 34.29 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e83688f-8448-484a-b86e-e357734f81cb")
 	)
 	(wire
 		(pts
@@ -1766,6 +2280,96 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 137.16) (xy 57.15 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45047049-218c-4813-a863-0c2af4a4d6e9")
+	)
+	(wire
+		(pts
+			(xy 31.75 137.16) (xy 34.29 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48e2a152-2554-42d2-993c-1b820c79efa3")
+	)
+	(wire
+		(pts
+			(xy 82.55 96.52) (xy 82.55 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ce2a629-0f7c-4445-8260-6efed5252d37")
+	)
+	(wire
+		(pts
+			(xy 87.63 82.55) (xy 87.63 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ef40e68-c929-4b5e-bbe6-1c91b463fedf")
+	)
+	(wire
+		(pts
+			(xy 26.67 102.87) (xy 26.67 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f8719d9-2d60-4184-a7ac-140222e49aea")
+	)
+	(wire
+		(pts
+			(xy 77.47 96.52) (xy 82.55 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51863af7-aeae-45e7-a6dc-ae0ab95086fa")
+	)
+	(wire
+		(pts
+			(xy 41.91 96.52) (xy 49.53 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "526b42f7-7fa3-44a8-ac5e-a100f0cd9c78")
+	)
+	(wire
+		(pts
+			(xy 17.78 137.16) (xy 17.78 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57def762-17d7-45fa-85f7-1f20567994e1")
+	)
+	(wire
+		(pts
+			(xy 34.29 137.16) (xy 52.07 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bc8ab6d-e429-4603-b5a7-66b8b59a9a4c")
+	)
+	(wire
+		(pts
 			(xy 173.99 25.4) (xy 173.99 29.21)
 		)
 		(stroke
@@ -1773,6 +2377,26 @@
 			(type default)
 		)
 		(uuid "5cac676f-b0fa-43e6-8918-ed73ac61595e")
+	)
+	(wire
+		(pts
+			(xy 25.4 101.6) (xy 25.4 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cba2aba-d797-463c-a54d-8611bc399883")
+	)
+	(wire
+		(pts
+			(xy 52.07 137.16) (xy 54.61 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62a25e35-10e6-4a59-bfa3-0a236b240aed")
 	)
 	(wire
 		(pts
@@ -1786,6 +2410,36 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 69.85) (xy 101.6 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e132b34-06ec-4846-8d6e-76c3ce8970ae")
+	)
+	(wire
+		(pts
+			(xy 29.21 105.41) (xy 31.75 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e88c3b0-c154-448c-baa9-31a785605b94")
+	)
+	(wire
+		(pts
+			(xy 52.07 105.41) (xy 54.61 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "741c6030-f67a-4b9a-9d60-868a16118f10")
+	)
+	(wire
+		(pts
 			(xy 106.68 41.91) (xy 106.68 48.26)
 		)
 		(stroke
@@ -1793,6 +2447,66 @@
 			(type default)
 		)
 		(uuid "790ba3e9-78cc-4b2c-88b5-28cef9a02031")
+	)
+	(wire
+		(pts
+			(xy 41.91 105.41) (xy 41.91 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d0aeaca-7208-4ec2-b203-e21ca384ffb5")
+	)
+	(wire
+		(pts
+			(xy 29.21 105.41) (xy 29.21 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d25ce6d-5410-4b09-a84d-cccbdee3ba53")
+	)
+	(wire
+		(pts
+			(xy 41.91 105.41) (xy 46.99 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "843ac7f8-a233-4ab7-bb1a-1a4739534601")
+	)
+	(wire
+		(pts
+			(xy 29.21 102.87) (xy 26.67 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84aa437c-da6f-424b-9356-694217d5ab30")
+	)
+	(wire
+		(pts
+			(xy 41.91 96.52) (xy 41.91 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87345f33-dba8-4c79-8edb-d60fbe954d27")
+	)
+	(wire
+		(pts
+			(xy 59.69 137.16) (xy 82.55 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88eb8ade-9446-45e0-b523-56f7d512822f")
 	)
 	(wire
 		(pts
@@ -1806,6 +2520,26 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 109.22) (xy 25.4 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a79daf0-26ef-4cb1-a3bf-ae9984b3a610")
+	)
+	(wire
+		(pts
+			(xy 34.29 92.71) (xy 34.29 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eed0b63-a4d7-483d-83a7-231db4e4fd37")
+	)
+	(wire
+		(pts
 			(xy 106.68 31.75) (xy 106.68 36.83)
 		)
 		(stroke
@@ -1813,6 +2547,16 @@
 			(type default)
 		)
 		(uuid "9046dd4e-d430-4d9e-abc2-a6595b3c7f08")
+	)
+	(wire
+		(pts
+			(xy 87.63 97.79) (xy 87.63 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92d5bd50-9eaf-4048-ae19-8cae53c35e4b")
 	)
 	(wire
 		(pts
@@ -1836,6 +2580,26 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 72.39) (xy 25.4 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eb6c6b1-24de-481e-b3d2-c9a966e278e3")
+	)
+	(wire
+		(pts
+			(xy 57.15 105.41) (xy 57.15 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f3ec0fd-3685-49e8-879d-badfc1d57d0f")
+	)
+	(wire
+		(pts
 			(xy 173.99 25.4) (xy 190.5 25.4)
 		)
 		(stroke
@@ -1843,6 +2607,16 @@
 			(type default)
 		)
 		(uuid "9face60e-9ce5-456c-9ee6-825d7049dace")
+	)
+	(wire
+		(pts
+			(xy 34.29 92.71) (xy 29.21 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a153067b-005c-4e5b-ab7a-fef237f0de84")
 	)
 	(wire
 		(pts
@@ -1866,6 +2640,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 72.39) (xy 25.4 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adc83ce3-9e06-433c-a7bd-41f60cd3ed91")
+	)
+	(wire
+		(pts
 			(xy 45.72 25.4) (xy 63.5 25.4)
 		)
 		(stroke
@@ -1873,6 +2657,36 @@
 			(type default)
 		)
 		(uuid "ae1854a4-eac8-4c5a-b3f3-c4c4e13d8579")
+	)
+	(wire
+		(pts
+			(xy 82.55 101.6) (xy 87.63 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b44ca5d0-b09b-4ff4-85b3-f49cb6c4461c")
+	)
+	(wire
+		(pts
+			(xy 59.69 105.41) (xy 59.69 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b628159c-8804-485b-88a0-7c3ac8abceb9")
+	)
+	(wire
+		(pts
+			(xy 29.21 92.71) (xy 29.21 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b651e8a5-6b61-47e9-bebc-eb1749a87ef3")
 	)
 	(wire
 		(pts
@@ -1886,6 +2700,26 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 137.16) (xy 31.75 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bff2b840-854c-4380-8596-fa4007562158")
+	)
+	(wire
+		(pts
+			(xy 57.15 137.16) (xy 59.69 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1f0bae3-6737-4bde-9a71-7db5019e2af4")
+	)
+	(wire
+		(pts
 			(xy 148.59 25.4) (xy 173.99 25.4)
 		)
 		(stroke
@@ -1893,6 +2727,56 @@
 			(type default)
 		)
 		(uuid "c256510d-220f-4fba-a326-d22b5f4ed811")
+	)
+	(wire
+		(pts
+			(xy 87.63 88.9) (xy 87.63 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c851fad0-0f44-45a2-89fe-de065de62808")
+	)
+	(wire
+		(pts
+			(xy 15.24 69.85) (xy 87.63 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8c4e9c5-e608-4ba1-983d-d7e4104f48d2")
+	)
+	(wire
+		(pts
+			(xy 54.61 105.41) (xy 57.15 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c92c420e-c24f-4fe4-8967-d5c8f1cba5e6")
+	)
+	(wire
+		(pts
+			(xy 26.67 137.16) (xy 29.21 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc68f443-71b0-4888-9fae-78073529d064")
+	)
+	(wire
+		(pts
+			(xy 87.63 69.85) (xy 87.63 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0dde925-8eec-4581-a111-635b9d935526")
 	)
 	(wire
 		(pts
@@ -1906,6 +2790,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 100.33) (xy 34.29 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e45dc4e5-092f-4f9b-a5e7-83fdd77c5819")
+	)
+	(wire
+		(pts
 			(xy 148.59 31.75) (xy 162.56 31.75)
 		)
 		(stroke
@@ -1916,6 +2810,26 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 101.6) (xy 101.6 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ece86391-ab89-4d21-9038-846bf43f0218")
+	)
+	(wire
+		(pts
+			(xy 16.51 101.6) (xy 25.4 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed806897-e0b9-44e7-ae9c-ee05e87467ed")
+	)
+	(wire
+		(pts
 			(xy 78.74 25.4) (xy 95.25 25.4)
 		)
 		(stroke
@@ -1923,6 +2837,36 @@
 			(type default)
 		)
 		(uuid "ef5a1afb-9c6c-4335-9eac-c3c01ebedaf0")
+	)
+	(wire
+		(pts
+			(xy 34.29 88.9) (xy 34.29 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f32bcea0-3bde-45e3-9f3a-7184300a7418")
+	)
+	(wire
+		(pts
+			(xy 52.07 109.22) (xy 52.07 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9b1b881-3943-49fa-b34d-8fbf7726516b")
+	)
+	(wire
+		(pts
+			(xy 31.75 105.41) (xy 31.75 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb3344e4-b2b7-4abd-bef6-533a3fc49343")
 	)
 	(wire
 		(pts
@@ -1954,16 +2898,6 @@
 		)
 		(uuid "3c4e1d96-1b7f-4fd5-a760-e5ebd44f2b8f")
 	)
-	(label "VBat"
-		(at 215.9 25.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4d9e9540-4b1d-45d8-90b6-cb5345f9e601")
-	)
 	(label "VOUT"
 		(at 123.19 50.8 180)
 		(effects
@@ -1984,6 +2918,26 @@
 		)
 		(uuid "572835fb-3204-4786-8e67-eccafa41f730")
 	)
+	(label "Pack+"
+		(at 15.24 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74dabf61-6720-4a47-9d45-93ffeeafe390")
+	)
+	(label "Pack-"
+		(at 16.51 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8847dfe5-35d7-4d4f-b71b-4d8df7513ca1")
+	)
 	(label "~{CHG}"
 		(at 152.4 38.1 180)
 		(effects
@@ -1993,6 +2947,16 @@
 			(justify right bottom)
 		)
 		(uuid "ae572731-e421-44e5-9807-d82f9f4c0697")
+	)
+	(label "VBat"
+		(at 101.6 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c9555a98-e7d0-434e-8f2c-954755f8b2f6")
 	)
 	(label "Vbus_f"
 		(at 78.74 25.4 0)
@@ -2216,6 +3180,76 @@
 			(project ""
 				(path "/8f164377-9f7e-422c-8ba4-6f3e1b8abddf"
 					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 34.29 97.79 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27954476-1097-4a04-8548-9c95f2a53945")
+		(property "Reference" "R7"
+			(at 36.83 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5M"
+			(at 36.83 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 34.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1a11509c-7e5d-4346-8b5b-509e6cbd6e56")
+		)
+		(pin "1"
+			(uuid "dd5ef56a-7bf8-4c38-ac52-7c6489218d7d")
+		)
+		(instances
+			(project "Ohmmeter"
+				(path "/8f164377-9f7e-422c-8ba4-6f3e1b8abddf"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -2488,6 +3522,234 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
+		(at 49.53 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62b3db83-0e3e-48ea-ab3d-002a9c25b618")
+		(property "Reference" "R6"
+			(at 49.53 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5M"
+			(at 49.53 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 49.53 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6f7754c4-000a-4bec-8840-1f7b534d75ab")
+		)
+		(pin "1"
+			(uuid "87ef5bfb-610e-46f9-8d6d-7d4a867d03f4")
+		)
+		(instances
+			(project "Ohmmeter"
+				(path "/8f164377-9f7e-422c-8ba4-6f3e1b8abddf"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:CSD16406Q3")
+		(at 34.29 111.76 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65aeebed-b37d-4c02-ae0c-f6b514d01772")
+		(property "Reference" "Q1"
+			(at 38.1 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CSD16406Q3"
+			(at 38.1 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DQG_VSON-CLIP"
+			(at -60.63 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/csd16406q3"
+			(at -160.63 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "25V, N ch NexFET MOSFET, single SON3x3, 7.4mOhm"
+			(at 34.29 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at -360.63 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at -460.63 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CSD16406Q3"
+			(at -560.63 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-CSD16406Q3"
+			(at -660.63 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CSD16406Q3?qs=SuDOdTVxq4Wogv4PDdDFZA%3D%3D"
+			(at -760.63 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "CSD16406Q3"
+			(at -860.63 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/csd16406q3/texas-instruments?utm_currency=USD&region=nac"
+			(at -960.63 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4d39978e-9829-4798-a424-3abb8507c95e")
+		)
+		(pin "3"
+			(uuid "0a2747cb-ad9d-4a2c-bf83-16e67e5e82ca")
+		)
+		(pin "1"
+			(uuid "e9a2dcf7-456e-4dd9-94ed-a5d5294edf51")
+		)
+		(pin "2"
+			(uuid "4b6be28b-c7aa-4995-92d0-e2f9e5d8b910")
+		)
+		(pin "5"
+			(uuid "f9b4b24a-2047-4434-bce0-3b8e7feaf9fa")
+		)
+		(pin "6"
+			(uuid "2b18f82e-fc97-4d19-9f5c-b96e8c646422")
+		)
+		(pin "7"
+			(uuid "4a1dda1a-0a01-4acf-b066-b10ac782f7af")
+		)
+		(pin "8"
+			(uuid "18147487-a712-4b2d-a477-425bc49ab49c")
+		)
+		(instances
+			(project ""
+				(path "/8f164377-9f7e-422c-8ba4-6f3e1b8abddf"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
 		(at 162.56 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2551,6 +3813,76 @@
 			(project ""
 				(path "/8f164377-9f7e-422c-8ba4-6f3e1b8abddf"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 25.4 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8909d22d-ce29-4a29-ab6d-c3685a9628b3")
+		(property "Reference" "R4"
+			(at 27.94 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2K"
+			(at 27.94 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 25.4 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a59d6647-9d5b-4b3f-b0b8-fbd23359d415")
+		)
+		(pin "1"
+			(uuid "9c10e646-24f9-4dc8-b4ce-7dfc13e6d714")
+		)
+		(instances
+			(project "Ohmmeter"
+				(path "/8f164377-9f7e-422c-8ba4-6f3e1b8abddf"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2686,6 +4018,166 @@
 			(project ""
 				(path "/8f164377-9f7e-422c-8ba4-6f3e1b8abddf"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:CSD16406Q3")
+		(at 59.69 111.76 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "944aff42-f52e-457a-a7b3-a545abbe90c6")
+		(property "Reference" "Q2"
+			(at 63.5 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CSD16406Q3"
+			(at 63.5 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DQG_VSON-CLIP"
+			(at -35.23 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/csd16406q3"
+			(at -135.23 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "25V, N ch NexFET MOSFET, single SON3x3, 7.4mOhm"
+			(at 59.69 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at -335.23 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at -435.23 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CSD16406Q3"
+			(at -535.23 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-CSD16406Q3"
+			(at -635.23 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CSD16406Q3?qs=SuDOdTVxq4Wogv4PDdDFZA%3D%3D"
+			(at -735.23 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "CSD16406Q3"
+			(at -835.23 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/csd16406q3/texas-instruments?utm_currency=USD&region=nac"
+			(at -935.23 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "59f43e0b-d5fb-4d2a-8cea-b507ff538cf6")
+		)
+		(pin "3"
+			(uuid "5ddaa9ad-3a27-4874-9ae7-f22bf0a3d878")
+		)
+		(pin "1"
+			(uuid "63ba00cc-130a-4626-87c0-09cfe1192775")
+		)
+		(pin "2"
+			(uuid "39d957f0-bfa0-440d-9a42-6d43ef2d8542")
+		)
+		(pin "5"
+			(uuid "88338eec-e91f-459a-be3e-84c276406176")
+		)
+		(pin "6"
+			(uuid "b5030ba8-99d0-490f-b178-b1066458c96d")
+		)
+		(pin "7"
+			(uuid "15bd1e28-9ee8-4c9c-b5b9-ab862eb0e37c")
+		)
+		(pin "8"
+			(uuid "6c23b642-d617-40a2-8e7e-449b58d986e9")
+		)
+		(instances
+			(project "Ohmmeter"
+				(path "/8f164377-9f7e-422c-8ba4-6f3e1b8abddf"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -2972,6 +4464,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 87.63 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9161db1-6854-4744-a5ee-8215a18215e4")
+		(property "Reference" "C3"
+			(at 90.17 93.9862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 90.17 96.5262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 87.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e6516cc-0463-4654-9652-f828d1d2c4ce")
+		)
+		(pin "2"
+			(uuid "2fcbd9c1-0dfe-42c9-b991-ecab9771a33a")
+		)
+		(instances
+			(project "Ohmmeter"
+				(path "/8f164377-9f7e-422c-8ba4-6f3e1b8abddf"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 184.15 38.1 0)
 		(unit 1)
@@ -3031,6 +4593,141 @@
 			(project "Ohmmeter"
 				(path "/8f164377-9f7e-422c-8ba4-6f3e1b8abddf"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e002d3f6-e9a0-45da-bf9c-d299f02c61b3")
+		(property "Reference" "#PWR09"
+			(at 101.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1294c51-804b-4055-ae6a-208c00a883ab")
+		)
+		(instances
+			(project "Ohmmeter"
+				(path "/8f164377-9f7e-422c-8ba4-6f3e1b8abddf"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 87.63 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4ffae98-b980-4021-acfe-4c0e51f3fffc")
+		(property "Reference" "R5"
+			(at 90.17 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330R"
+			(at 90.17 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 87.63 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a47a4b05-0055-4323-b6fb-ef5c1a894256")
+		)
+		(pin "1"
+			(uuid "dcf40dd0-539c-4ad3-a0cf-90a030062541")
+		)
+		(instances
+			(project "Ohmmeter"
+				(path "/8f164377-9f7e-422c-8ba4-6f3e1b8abddf"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -3108,16 +4805,15 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:BQ29737DSER")
-		(at 63.5 90.17 0)
+		(at 63.5 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e7eea99f-413a-4e17-8bfd-89c31ce6f2bd")
 		(property "Reference" "IC2"
-			(at 63.5 74.93 0)
+			(at 55.88 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3125,7 +4821,7 @@
 			)
 		)
 		(property "Value" "BQ29737DSER"
-			(at 63.5 77.47 0)
+			(at 60.96 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3133,7 +4829,7 @@
 			)
 		)
 		(property "Footprint" "SON50P150X150X80-6N"
-			(at 87.63 185.09 0)
+			(at 87.63 183.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3143,7 +4839,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq2972.pdf?ts=1625419709775&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DBQ29728DSER"
-			(at 87.63 285.09 0)
+			(at 87.63 283.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3153,7 +4849,7 @@
 			)
 		)
 		(property "Description" "Battery Management Lithium-ion / lithium-polymer advanced single-cell battery protector 6-WSON -40 to 85"
-			(at 63.5 90.17 0)
+			(at 63.5 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3162,7 +4858,7 @@
 			)
 		)
 		(property "Height" "0.8"
-			(at 87.63 485.09 0)
+			(at 87.63 483.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3172,7 +4868,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 87.63 585.09 0)
+			(at 87.63 583.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3182,7 +4878,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "BQ29737DSER"
-			(at 87.63 685.09 0)
+			(at 87.63 683.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3192,7 +4888,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-BQ29737DSER"
-			(at 87.63 785.09 0)
+			(at 87.63 783.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3202,7 +4898,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ29737DSER?qs=QNEnbhJQKvZFYvtkppP%2FHQ%3D%3D"
-			(at 87.63 885.09 0)
+			(at 87.63 883.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3212,7 +4908,7 @@
 			)
 		)
 		(property "Arrow Part Number" "BQ29737DSER"
-			(at 87.63 985.09 0)
+			(at 87.63 983.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3222,7 +4918,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/bq29737dser/texas-instruments?utm_currency=USD&region=nac"
-			(at 87.63 1085.09 0)
+			(at 87.63 1083.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
